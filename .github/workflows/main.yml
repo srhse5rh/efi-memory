@@ -33,7 +33,6 @@ jobs:
       - name: Build
         run: |
           sudo apt install gnu-efi build-essential
-          cd efi-memory
           cd driver
           make
 
